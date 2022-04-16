@@ -1,0 +1,125 @@
+/* STLYE 1 */
+    /* Splash Screen */
+    .intro{
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: #A8D0E6;
+        transition: 1s;
+    }
+    .logo-header{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .logo{
+        position: relative;
+        display: inline-block;
+        bottom: -20px;
+        opacity: 0;
+        color: #fff;
+    }
+    .logo.active{
+        bottom: 0;
+        opacity: 1;
+        transition: ease-in-out 0.5s;
+    }
+    .logo.fade{
+        bottom: 150px;
+        opacity: 0;
+        transition: ease-in-out 0.5s;
+    }
+body{
+    font-family: "Poppins", sans-serif;
+    margin: 20px ; /*Creates the border around the edge*/
+    background-color: #A8D0E6;
+}
+.main-title-bar1{
+    padding: 5px;
+    text-align: center;
+    outline: solid;
+    border-radius: 10px;
+    background-color: #24305E;
+    color: #fff;
+    letter-spacing: 3px;
+    width: 700px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.for-50-days{
+    padding: 5px;
+    text-align: left;
+    outline: solid;
+    border-radius: 10px;
+    background-color: #F76C6C;
+    color: #fff;
+    width: 700px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.p1{
+    font-weight: bolder;
+    text-align: center;
+}
+.date1:hover{
+    background-color: #374785;
+    border: solid #ffffff;
+}
+.date-input{
+    padding: 5px;
+    text-align: center;
+    outline: solid;
+    border-radius: 10px;
+    background-color: #F8E9A1;
+    color: #fff;
+    width: 700px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+/* This is the parent */
+.date-and-enter{
+    outline: solid;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #374785;
+    width: 275px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    white-space: nowrap;
+}
+/* This is the child */
+.date1{
+    text-align: center;
+    color: #fff;
+    background-color: #24305E;
+    font-family: "Poppins", sans-serif;
+    border-radius: 5px;
+    border: solid #24305E;
+    margin: 5px;
+    display: inline-block;
+}
+.table1{
+    padding: 5px;
+    text-align: center;
+    border: solid;
+    border-radius: 15px;
+    background-color: #374785;
+    color: #fff;
+    width: 900px;
+    margin: auto;
+    border-spacing: 10px;
+}
+.check1{
+    width: 20px;
+    height: 20px;
+}
+.table-header-1{
+    color: #fff;
+    height: 3em;
+    width: 20px;
+}
